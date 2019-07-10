@@ -1,0 +1,19 @@
+\section{Proxy}
+\subsection{Descrizione}
+Si tratta di un pattern strutturale basato su oggetti che viene utilizzato per accedere ad un’oggetto complesso tramite un oggetto semplice.
+Questo pattern può risultare utile se l’oggetto complesso:
+\begin{itemize}
+\item richiede molte risorse computazionali;
+\item richiede molto tempo per caricarsi;
+\item è presente su una macchina remota e il traffico di rete determina latenze ed overhead;
+\item non definisce delle policy di sicurezze e consente un accesso indiscriminato;
+\item non viene mantenuto in cache ma viene rigenerato ad ogni richiesta.
+\end{itemize}
+
+\subsection{Applicabilità}
+\begin{itemize}
+	\item \textbf{Remote Proxy}: rappresentazione locale di un oggetto che si trova in uno spazio di indirizzi differenti;
+	\item \textbf{Virtual Proxy}: gestisce la creazione su richiesta di oggetti costosi;
+	\item \textbf{Protection Proxy}: controlla l'accesso all'oggetto originale. Questo tipo di proxy si rivela utile quando possono essere definiti diritti di accesso diversi per gli oggetti;
+	\item \textbf{Riferimento intelligente}: sostituisce un puntatore puro a un oggetto consentendo l'esecuzione di attività aggiunte quando si accede all'oggetto referenzito;
+\end{itemize}
