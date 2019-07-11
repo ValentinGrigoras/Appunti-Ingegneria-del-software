@@ -1,0 +1,42 @@
+\BOOKMARK [1][-]{section.1}{Domande di teoria, parte di Tullio}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Indicare le differenze \(natura, finalita, collocazione\) che intercorrono tra le attivitaa di verifica e quelle di validazione}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Fissando l'attenzione sulla definizione di "processo" associata allo standard ISO/IEC 12207, indicare come \(secondo quali regole\), quando \(in quali fasi di progetto\) e perch\351 \(attraverso quali attivit\340\) la vostra esperienza di progetto didattico ha visto attuato tale concetto.}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Fornire una definizione del formalismo noto come "diagramma di Gantt", discuterne concisamentele finalit\340 e modalit\340 d'uso, l'efficacia e i punti deboli eventualmente rilevati nell'esperienza delprogetto didattico}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Dare una definizione ben fondata del concetto di "architettura software". In relazione a tale concetto, dare una definizione ai termini "framework" e "design pattern" spiegando come questi si integrino fra loro E all'interno di una architettura. }{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Fornire una definizione del concetto di qualit\340, applicabile al dominio dell'ingegneria del software. Discutere concisamente quali attivita' il proprio gruppo di progetto didattico abbia svolto nella direzione di tale definizione, indicando allo stato attuale di progetto i migliori e i peggiori risultati ottenuti, offrendo una spiegazione dell'esito}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{Spiegare concisamente \(dunque a livello di sostanza\) la differenza tra il modello di sviluppo iterativo e quello incrementale. Alla luce dell'esperienza acquisita nel progetto didattico, indicare spiegando a posteriori, quale dei due sarebbe stato pi\371 adatto al caso}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{Fornire una definzione dei concetti di milestone e baseline, indicando come ciascuno di essi sia da utilizzare all'interno delle attivit\340 di progetto.}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{Descrivere la tecnica di classificazione e tracciamento dei "requisiti" adottata nel proprio progetto didattico e discuterne l'efficacia e i limiti eventualmente riscontrati.}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.9}{Discutere la differenza tra le attivit\340 di "versionamento" e "configurazione" come vengono applicate all'ambito dello sviluppo sw}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.10}{Presentare due metriche significative per la misurazione di qualit\340 della progettazione software e del codice\( quindi almeno una metrica per ciascun oggetto\). Giustificare la scelta in base all'esperienza maturata nell'ambito del proprio progetto didattico. Discuter brevemente l'esito osservato del'eventuale uso pratico di tali metriche}{section.1}% 11
+\BOOKMARK [1][-]{section.2}{OOP PRINCIPLES REVISITED}{}% 12
+\BOOKMARK [2][-]{subsection.2.1}{Oggetto}{section.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Elementi fondamentali di un oggetto}{subsection.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.2}{Classe}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.3}{Tempo di implementazione vs tempo di esecuzione}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.4}{Principi cardini della OOP}{section.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Incapsulamento \(information hiding\)}{subsection.2.4}% 18
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Ereditariet\340}{subsection.2.4}% 19
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Polimorfismo}{subsection.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.5}{Evoluzione della programmazione}{section.2}% 21
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Interfaccia}{subsection.2.5}% 22
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Perch\350 si \350 arrivati alla programmazione ad oggetti?}{subsection.2.5}% 23
+\BOOKMARK [1][-]{section.3}{Dipendenza}{}% 24
+\BOOKMARK [2][-]{subsection.3.1}{Accoppiamento}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.2}{Dipendenza in OOP}{section.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Dipendenza\(Relazione\)}{subsection.3.2}% 27
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Associazione}{subsection.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.3}{Aggregazione e composizione}{section.3}% 29
+\BOOKMARK [3][-]{subsubsection.3.3.1}{SLOC}{subsection.3.3}% 30
+\BOOKMARK [1][-]{section.4}{Observer}{}% 31
+\BOOKMARK [2][-]{subsection.4.1}{Descrizione}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.2}{Struttura}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.3}{Esempio 1}{section.4}% 34
+\BOOKMARK [2][-]{subsection.4.4}{Parole chiavi}{section.4}% 35
+\BOOKMARK [2][-]{subsection.4.5}{Associazione}{section.4}% 36
+\BOOKMARK [1][-]{section.5}{Proxy}{}% 37
+\BOOKMARK [2][-]{subsection.5.1}{Descrizione}{section.5}% 38
+\BOOKMARK [2][-]{subsection.5.2}{Applicabilit\340}{section.5}% 39
+\BOOKMARK [2][-]{subsection.5.3}{Struttura}{section.5}% 40
+\BOOKMARK [2][-]{subsection.5.4}{Parole chiavi}{section.5}% 41
+\BOOKMARK [2][-]{subsection.5.5}{Associazione}{section.5}% 42

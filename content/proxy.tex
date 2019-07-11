@@ -12,8 +12,50 @@ Questo pattern può risultare utile se l’oggetto complesso:
 
 \subsection{Applicabilità}
 \begin{itemize}
-	\item \textbf{Remote Proxy}: rappresentazione locale di un oggetto che si trova in uno spazio di indirizzi differenti;
+	\item \textbf{Remote Proxy}: rappresentazione locale di un oggetto che si trova in uno spazio di indirizzi differenti. Tipicamente permette di accedere a risorse distribuite sulla rete come se fossero accessibili come oggetto locale;
 	\item \textbf{Virtual Proxy}: gestisce la creazione su richiesta di oggetti costosi;
 	\item \textbf{Protection Proxy}: controlla l'accesso all'oggetto originale. Questo tipo di proxy si rivela utile quando possono essere definiti diritti di accesso diversi per gli oggetti;
 	\item \textbf{Riferimento intelligente}: sostituisce un puntatore puro a un oggetto consentendo l'esecuzione di attività aggiunte quando si accede all'oggetto referenzito;
 \end{itemize}
+
+\subsection{Struttura}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/proxy1}
+\caption{Struttura proxy\label{fig:UC3}}
+\end{figure}
+
+
+\begin{itemize}
+	\item \textbf{Subject}
+	\begin{itemize}
+		\item La classe Subject è una classe astratta ed è la classe base del Proxy e del RealSubject;
+		\item Definisce i membri che verrano implementati dalle sottoclassi;
+	\end{itemize}
+	\item \textbf{RealSubject}
+	\begin{itemize}
+		\item La classe RealSubject è la classe complessa che desideriamo utilizzare in modo efficiente, senza tanto sprecco di risorse;
+	\end{itemize}
+		\item \textbf{Proxy}
+	\begin{itemize}
+		\item Gli oggetti Proxy contengono un'istanza privata di un oggetto RealSubject;
+		\item Gli oggetti Client eseguono azioni sul proxy che vengono passati all'oggetto RealSubject;
+		\item I riusltati dei membri di RealSubject vengono restituiti al client tramite il Proxy.
+	\end{itemize}
+	
+\end{itemize}
+
+Nel diagramma delle classi vediamo come il client dipende solamente dall'interfaccia. Invece dell'oggetto reale, il client potrebbe utilizzare il proxy. Quando l'oggetto proxy viene chiamato fa le sue cose e infine inoltra la chiamata all'oggetto reale.
+
+\subsection{Parole chiavi}
+\begin{itemize}
+\item \textit{remote proxy}: ambasciatore, governare, remoto, oggetti dislocati nella rete;
+\item \textit{virtual proxy}: risorse, locale;
+\item \textit{puntatore intelligente}: riferimento, locale;
+\end{itemize}
+
+\subsection{Associazione}
+\begin{itemize}
+\item viene spesso associato con un pattern proxy o adapter o strategy;
+\end{itemize}
+
